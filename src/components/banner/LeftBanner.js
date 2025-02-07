@@ -4,10 +4,10 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaReact,
+
   FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -65,25 +65,19 @@ const LeftBanner = () => {
           </div>
         </div>
         <div>
-          {/* <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
-          </div> */}
+
+         
         </div>
       </div>
+      <button
+            className="p-ripple bg-cyan-800 py-2 rounded-lg text-white w-36 text-xl  btn outline-none border-none hover:bg-emerald-500"
+            pulseColor="#ff5733"
+            duration="2s"
+            onClick={() => window.open('https://drive.google.com/uc?export=download&id=1Q-bBGU0LByXz9ef0s47gPheJygRrKm7N', '_blank')}
+          >
+           
+            Resume
+          </button>
     </div>
   );
 };

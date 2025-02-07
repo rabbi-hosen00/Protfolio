@@ -4,7 +4,7 @@ import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
   return (
-    <div className="w-full lgl:w-[35%] h-full bg-slate-700 p-4 lgl:p-8 rounded-lg shadow-2xl flex flex-col gap-8 justify-center">
+    <div className="w-full lgl:w-[35%] h-full bg-slate-600 p-4 lgl:p-8 rounded-lg shadow-2xl flex flex-col gap-8 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}
@@ -29,13 +29,13 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          <span className="bannerIcon shadow-2xl">
             <FaFacebookF />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon shadow-2xl">
             <FaTwitter />
           </span>
-          <span className="bannerIcon">
+          <span className="bannerIcon shadow-2xl">
             <FaLinkedinIn />
           </span>
         </div>
