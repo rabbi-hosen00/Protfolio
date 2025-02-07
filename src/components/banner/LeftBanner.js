@@ -2,8 +2,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
   FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
+ 
 
   FaGithub,
 } from "react-icons/fa";
@@ -42,26 +41,17 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="" target="blank">
+            <a href="https://github.com/rabbi-hosen00" target="blank">
               <span className="bannerIcon shadow-2xl">
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.facebook.com/share/15K7joG11J/" target="blank">
               <span className="bannerIcon shadow-2xl">
                 <FaFacebookF />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon shadow-2xl">
-                <FaTwitter />
-              </span>
-            </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
-              <span className="bannerIcon shadow-2xl">
-                <FaLinkedinIn />
-              </span>
-            </a>
+            
           </div>
         </div>
         <div>

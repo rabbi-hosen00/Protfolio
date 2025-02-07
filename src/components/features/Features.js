@@ -1,9 +1,11 @@
 import React from 'react'
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
+import { FaMobile, FaGlobe, FaPlay } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Title from '../layouts/Title';
 import Card from './Card';
+import { RiFootballFill } from "react-icons/ri";
+
 
 const Features = () => {
   return (
@@ -15,8 +17,7 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title=" Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Focus on responsive UI with Tailwind CSS, React for dynamic components, state management with Context API/Redux, optimize performance with lazy loading, and ensure accessibility, security, and seamless user experience."
          
         />
         <Card
@@ -32,7 +33,7 @@ const Features = () => {
         <Card
           title="Hobbies or Interests"
           des="Outside of programming, I enjoy sports & fitness 🏋️‍♂️, gaming & tech trends 🎮, and design & aesthetics 🎨. I also love listening to music & podcasts 🎧 and staying updated on emerging technologies."
-          icon={<FaMobile />}
+          icon={<RiFootballFill />}
         />
         <Card
           title="Personality"

@@ -17,24 +17,27 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Equipment Sports"
+          des="EquiSports offers top-quality sports equipment, featuring gear for various sports, secure shopping, price sorting, and a seamless experience."
           src={projectOne}
+          gitHublink="https://github.com/rabbi-hosen00/Assignment-10-Lotas-client"
+          liveLink="https://sports-c4a85.web.app/" // <-- Replace with actual deployment link!
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Learning Language"
+          des=" Learning a language enhances communication, cognitive skills, and cultural understanding. It involves vocabulary, grammar, and practice through reading, writing, listening, and speaking for fluency and proficiency."
           src={projectTwo}
+          gitHublink="https://github.com/rabbi-hosen00/Learning-language-client"
+          liveLink="https://learning-language-127fc.web.app/"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="Medicine Ecommerce"
+          des=" A Medicine E-commerce platform enables users to buy medicines and healthcare products online. It ensures secure authentication, prescription uploads, order tracking, and expert consultations, built with the MERN stack for efficiency and scalability.!"
           src={projectThree}
+          gitHublink="https://github.com/rabbi-hosen00/medicine-ecommerce-project-client"
+          liveLink="https://assignment-12-medicine.web.app/"
         />
-        
+
       </div>
     </section>
   );
