@@ -42,7 +42,7 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="" target="blank">
               <span className="bannerIcon shadow-2xl">
                 <FaGithub />
               </span>
@@ -66,18 +66,26 @@ const LeftBanner = () => {
         </div>
         <div>
 
-         
+
         </div>
       </div>
-      <button
+      {/* <button
             className="p-ripple bg-cyan-800 py-2 rounded-lg text-white w-36 text-xl  btn outline-none border-none hover:bg-emerald-500"
             pulseColor="#ff5733"
             duration="2s"
-            onClick={() => window.open('https://drive.google.com/uc?export=download&id=1Q-bBGU0LByXz9ef0s47gPheJygRrKm7N', '_blank')}
+            onClick={() => window.open('https://drive.google.com/file/d/1YZg-9pQhRyFm449q2r1sbtpkOn80YiWb/view?usp=sharing')}
           >
            
             Resume
-          </button>
+          </button> */}
+      <button
+        className="p-ripple bg-cyan-800 py-2 rounded-lg text-white w-36 text-xl btn outline-none border-none hover:bg-emerald-500"
+        pulseColor="#ff5733"
+        duration="2s"
+        onClick={() => window.location.href = 'https://drive.google.com/uc?export=download&id=1YZg-9pQhRyFm449q2r1sbtpkOn80YiWb'}
+      >
+        Resume
+      </button>
     </div>
   );
 };

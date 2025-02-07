@@ -4,7 +4,7 @@ import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
   return (
-    <div className="w-full lgl:w-[35%] h-full bg-slate-600 p-4 lgl:p-8 rounded-lg shadow-2xl flex flex-col gap-8 justify-center">
+    <div className="w-full lgl:w-[35%] h-full bg-slate-800 p-4 lgl:p-8 rounded-lg shadow-2xl flex flex-col gap-8 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
         src={contactImg}

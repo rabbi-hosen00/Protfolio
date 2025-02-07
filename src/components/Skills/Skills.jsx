@@ -123,7 +123,7 @@ const Skill = () => {
   return (
     <motion.section
       id="skills"
-      className="w-full py-20 bg-slate-600 text-white"
+      className="w-full py-20 bg-slate-800 text-white"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
